@@ -1,3 +1,5 @@
 # LevelGrind
-## Coding Problems and Challenges from Practice
-### Each problem comes with a 'Thinking Process' explanation so it's not just code regurgitation :)
+## Coding Problems and Challenges for Interviews and Practice
+
+- Clone repo
+- Open with `jupyter notebook`
