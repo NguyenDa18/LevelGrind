@@ -6,10 +6,8 @@ def gcd(a, b):
     >>> gcd(20, 8)
     4
     """
-    while b != 0:
-        temp = a
-        a = b
-        b = temp % b
+    while b:
+        a, b = b, a % b
     return a
 
 if __name__ == "__main__":
