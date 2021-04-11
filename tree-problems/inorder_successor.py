@@ -8,8 +8,7 @@ source: https://dxmahata.gitbooks.io/leetcode-python-solutions/content/inorder_s
 class Node:
     def __init__(self, data):
         self.data = data
-        self.left = None
-        self.right = None
+        self.left, self.right = None, None
 
 def in_order_successor(root, n):
     successor = None
